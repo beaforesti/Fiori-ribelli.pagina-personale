@@ -1,0 +1,102 @@
+<head>
+  <style>
+  @keyframes spin {
+    from {transform: rotate(0) scale(1);}
+    to {transform: rotate(360deg) scale(0.5);}
+}
+
+  #bolla {
+  animation:spin 1s;
+  height:50px;
+  width:50px;
+  background-color: red;
+  position:absolute;
+  top:50%;
+  left:50%;
+}
+
+
+  </style>
+</head>
+
+<body>
+  <div id="bolla"> </div>
+</body>
+
+
+@keyframes move{
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
+}
+@keyframes spinp {
+  0%{opacity:0;transform:scale(1));
+  }
+  50%{opacity:0.5;}
+  100%{opacity:1;transform:scale(2)}
+  }
+
+@keyframes spinc {
+    0%{transform:scale(1);
+    }
+    100%{transform:scale(2)}
+}
+#centre {
+  animation:spinc 5s infinite ease-in-out;
+  height:50px;
+  width:50px;
+  background-color: green;
+  border-radius:50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#container {
+  position: absolute;
+  height:500px;
+  width:500px;
+  top: 20%;
+  left: 30%;
+  animation: move 5s infinite ease-in-out;
+}
+
+#petal1 {
+  animation:spinp 5s infinite;
+  height:50px;
+  width:50px;
+  background-color: red;
+  border-radius:50%;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+#petal2 {
+  animation:spinp 5s infinite;
+  height:50px;
+  width:50px;
+  background-color: red;
+  border-radius:50%;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+}
+#petal3 {
+  animation:spinp 5s infinite;
+  height:50px;
+  width:50px;
+  background-color: red;
+  border-radius:50%;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+#petal4 {
+  animation:spinp 5s infinite;
+  height:50px;
+  width:50px;
+  background-color: red;
+  border-radius:50%;
+  position: absolute;
+  top: 55%;
+  left: 55%;
+}
