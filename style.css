@@ -23,7 +23,7 @@ animation: scorri1 4s;
   right: 5%;
   transform: rotate(180deg) scaleX(-1);
   width: 20vw;
-  height: 30wh;
+  height: 30vw;
   animation: scorri2 4s;
 }
 #pagina{
@@ -199,7 +199,7 @@ body {
 h3 {
   color:#d79922;
   font-family: 'Reenie Beanie';
-  font-size: 2.5vw;
+  font-size: 4vh;
 }
 #tutto {
   position: absolute;
@@ -215,21 +215,20 @@ h3 {
   visibility: hidden;
 }
 
-#foto{
+#fot{
   position:absolute ;
   top:42vh;
   left:25vh;
   transform: translate(0,50%);
-  width: 80vw ;
+  width: 55vw ;
   height: 30vh;
 }
 .img3{
   display:inline-block;
-  margin-right: 5vw;
-  right:50%;
-  transform: translate(50%, 0);
-  width: 17vw ;
-  height: 17vw;
+  margin-right: 2vw;
+  transform: translate(-80%,50%);
+  width: 15vw ;
+  height: 15vw;
 }
 .img3:hover{
   transform: scale3d(2,2,2);
@@ -268,6 +267,7 @@ h3 {
 }
 #impronte {
   width:100vw;
+  position: static;
 }
 
 #foot1L{
@@ -328,24 +328,25 @@ width: 8vw;
 
 #box{
   position: absolute;
-  left:20vw;
+  left:13vw;
   width: 21vw;
   height: 10vh;
-  background-color:;
-}
+  }
 
 #testo{
   position: absolute;
-  width: 45%;
+  width: 55vw;
   height: 17%;
-  background-color: ;
-}
+  }
 .destra{
   left:20vw;
 }
 
 .sinistra{
-  right:10vw;
+  right:7vw;
+}
+#testo.f, #foto {
+  position: absolute;
 }
 .f{
   position: absolute;
@@ -358,15 +359,12 @@ width: 8vw;
 
   width:20vw;
 }
-#Curriculum{
-  left: 50%;
-}
 
-    #cu1{
+#cu1{
       position: absolute;
       left:-5%;
       top:0;
-      width: 10vw;
+      width: 15vw;
       background-color: #f7f1dc;
       border-radius: 20%;
     } #cu1:hover{
@@ -375,7 +373,7 @@ width: 8vw;
     #cu2{
       position: absolute;
       left:40%;
-      top:0%;width: 15vw;background-color: #f7f1dc;
+      top:0%;width: 17vw;background-color: #f7f1dc;
       border-radius: 20%;
     } #cu2:hover{
       transform: scale(1.2,1.2);
@@ -384,7 +382,7 @@ width: 8vw;
       position: absolute;
       left:-5%;
       top:105%;
-      width:10vw;
+      width:15vw;
       background-color: #f7f1dc;
       border-radius: 20%;
     } #cu3:hover{
@@ -393,9 +391,17 @@ width: 8vw;
     #cu4{
       position: absolute;
       left:40%;
-      top:105%;width: 15vw;background-color: #f7f1dc;
+      top:105%;width: 17vw;background-color: #f7f1dc;
       border-radius: 20%;
     } #cu4:hover{
+      transform: scale(1.2,1.2);
+    }
+    #cu5{
+      position: absolute;
+      left:20%;
+      top:50%;width: 15vw;background-color: #f7f1dc;
+      border-radius: 20%;
+    } #cu5:hover{
       transform: scale(1.2,1.2);
     }
 .p{
@@ -403,8 +409,8 @@ width: 8vw;
   bottom:15%;
 }
 .port{
-  width:40%;
-  height: 5%;
+  width:50%;
+  height: 10%;
 }
 .co{
 position: absolute;
@@ -436,7 +442,7 @@ h4 {
 .portfolio{
   position: absolute;
   top: 20vh;
-  left: 20vw;
+  left: 7vw;
   width: 80vw;
   height:450vh;
   }
@@ -449,39 +455,42 @@ h4 {
   top:-5vh;
   left: 20vw;
   height: 20vh;
-  width: 40vw;
+  width: 60vw;
   background-color: ;
   }
 
 .elem{
     position: absolute;
-    top: 80vh;
+    top: 85vh;
     left: 20vw;
     height: 15vh;
-    width: 40vw;
+    width: 60vw;
 
     }
 
 .logh{
       position: absolute;
-      top: 150vh;left: 20vw;
+      top: 155vh;
+      left: 20vw;
       height: 15vh;
-      width: 40vw;
+      width: 60vw;
 
       }
 
 .myfoto{
   position: absolute;
-  top: 285vh;left: 20vw;
+  top: 290vh;
+  left: 20vw;
   height: 15vh;
-  width: 40vw;
+  width: 60vw;
 
 }
 .eser{
   position: absolute;
-  top: 410vh;left: 20vw;
+  top: 415vh;
+  left: 20vw;
   height: 15vh;
-  width: 40vw;
+  width: 60vw;
 
 }
 #video {
@@ -503,79 +512,79 @@ h4 {
 
 #es01 {
   position: absolute;
-  top: 120vh;
+  top: 125vh;
   left:25vw;
-  height: 30vh;
-  width: 30vh;
+  height: 15vw;
+  width: 15vw;
 } #es01:hover{
   transform: scale3d(2,2,2);
 }
 #es02 {
   position: absolute;
-  top: 120vh;
+  top: 125vh;
   left:41vw;
-  height: 30vh;
-  width: 30vh;
+  height: 15vw;
+  width: 15vw;
 }#es02:hover{
   transform: scale3d(2,2,2);
 }
 #gif1 {
   position: absolute;
-  top: 120vh;
+  top: 125vh;
   left:59vw;
-  height: 30vh;
-  width: 30vh;
+  height: 15vw;
+  width: 15vw;
 } #gif1:hover{
   transform: scale3d(2,2,2);
 }
 #gif2 {
   position: absolute;
-  top: 120vh;
+  top: 125vh;
   left:75vw;
-  height: 30vh;
-  width: 30vh;
+  height: 15vw;
+  width: 15vw;
 }#gif2:hover{
   transform: scale3d(2,2,2);
 }
 #dis1 {
   position: absolute;
-  top: 190vh;
+  top: 195vh;
   left:20vw;
-  height: 45vh;
-  width: 39vh;
+  height: 22.5vw;
+  width: 19vw;
 }#dis1:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
 #dis2 {
   position: absolute;
-  top: 190vh;
+  top: 195vh;
   left:40vw;
-  height: 45vh;
-  width: 36vh;
+  height: 22.5vw;
+  width: 18vw;
 }#dis2:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
 #log1 {
   position: absolute;
-  top: 190vh;
+  top: 195vh;
   left:60vw;
-  height: 45vh;
-  width: 45vh;
+  height: 22.5vw;
+  width: 22.5vw;
 }#log1:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
 #log2 {
   position: absolute;
-  top: 240vh;
-  left:20vw;
-  height: 45vh;
-  width: 45vh;
+  top: 243vh;
+  left:17vw;
+  height: 22.5vw;
+  width: 22.5vw;
 }#log2:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
 #video3 {
   position: absolute;
-  top: 240vh;
+  top: 243vh;
   left: 40vw;
   height:360;
   width: 640;
@@ -583,37 +592,37 @@ h4 {
 }
 #foto1 {
   position: absolute;
-  top: 330vh;
+  top: 333vh;
   left:25vw;
-  height: 40vh;
-  width: 66vh;
+  height: 20vw;
+  width: 33vw;
 }#foto1:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
 #foto2 {
   position: absolute;
-  top: 330vh;
+  top: 333vh;
   left:65vw;
-  height: 40vh;
-  width: 40vh;
+  height: 20vw;
+  width: 20vw;
 }#foto2:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
 #foto3 {
   position: absolute;
-  top: 375vh;
+  top: 377vh;
   left:25vw;
-  height: 40vh;
-  width: 66vh;
+  height: 20vw;
+  width: 33vw;
 }#foto3:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
 #foto4 {
   position: absolute;
-  top: 375vh;
+  top: 377vh;
   left:65vw;
-  height: 40vh;
-  width: 40vh;
+  height: 20vw;
+  width: 20vw;
 }#foto4:hover{
   transform: scale3d(1.5,1.5,1.5);
 }
